@@ -1,0 +1,27 @@
+/* DepartmentChart.css */
+.department-chart-container {
+  background-color: #fff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+  padding: 20px; /* Padding around the chart */
+  margin: 20px 0; /* Margin for spacing between chart and other elements */
+}
+
+/* Styling for the chart header/title */
+.department-chart-title {
+  text-align: left;
+  margin-bottom: 20px;
+  color: #333; /* Dark grey color for the text */
+  font-size: 18px; /* Slightly larger font size for the title */
+}
+
+/* Custom styling for the chart tooltip */
+.recharts-tooltip-wrapper {
+  background-color: #ffffff; /* White background for the tooltip */
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 4px; /* Rounded corners for the tooltip */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for the tooltip */
+  padding: 5px; /* Padding inside the tooltip */
+}
+
+/* You may need to add additional specific classes based on the chart library's structure */

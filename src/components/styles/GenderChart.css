@@ -1,0 +1,18 @@
+/* src/components/styles/GenderChart.css */
+.gender-chart {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Additional specific styles for the gender chart can be added here */
+  .gender-chart-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* You may want to add classes for the chart itself, legends, etc. */
+  

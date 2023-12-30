@@ -1,0 +1,63 @@
+/* AddEmployeePage.css */
+.add-employee-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-employee-form h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-employee-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .add-employee-form input[type="text"],
+  .add-employee-form input[type="date"],
+  .add-employee-form input[type="number"],
+  .add-employee-form input[type="email"],
+  .add-employee-form input[type="tel"],
+  .add-employee-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-employee-form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .add-employee-form input[readonly] {
+    background-color: #e9ecef;
+    color: #495057;
+  }
+  
+  .add-employee-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-employee-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  
+  h1{
+    text-align: center;
+  }

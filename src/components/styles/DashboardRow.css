@@ -1,0 +1,8 @@
+/* Dashboard.css */
+.dashboard {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    gap: 20px; /* Space between children */
+    padding: 20px; /* Padding around the entire dashboard */
+  }
+  

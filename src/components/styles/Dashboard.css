@@ -1,0 +1,33 @@
+
+/* src/components/styles/Dashboard.css */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.dashboard-row {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 20px; /* Add space between components */
+}
+
+/* Modify this according to which row EmployeeTable and GenderChart are in */
+.dashboard-row:nth-child(3) { /* This targets the third row */
+  justify-content: space-between; /* This will space out the child components */
+}
+
+.dashboard-row:nth-child(3) > * {
+  flex: 1; /* Both children will take equal space */
+  min-width: 0; /* Prevent flex items from growing beyond their content */
+}
+
+@media (max-width: 768px) {
+  .dashboard-row {
+      flex-direction: column;
+  }
+
+  .dashboard-row > * {
+      flex: 1; /* On small screens, each child takes full width of the container */
+  }
+}
